@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Research</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/research-style.css">
+</head>
+
+
+<body>
+	<header>
+		<!--Use Flexbox to create the navigation bar-->
+		<div class="flexbox-container">
+			<div class="box-1">
+				<img src="../MEDIA/global.png" alt="Logo" height="60px" width="60px"/>		
+			</div>	
+				
+			<div class="box-2">
+				<p class="tagline">ITWD6.408 </p>
+			</div>
+			
+			<div class="box-3">
+				<div class="horizontal-nav">
+					<ul>
+						<li><a href="../index.html">HOME</a></li>
+						<li><a href="../Form/form1.html">FORMS</a></li>
+						<li><a href="../XML/xmlrss.html">XML/JSON</a></li>
+						<li><a href="../JS/javascript.html">JAVASCRIPT</a></li>
+						<li  class="active"><a href="research.html">RESEARCH</a></li>	
+					</ul>
+				</div>			
+			</div>			
+			<div class="box-4">
+				<p onclick="openNav()">≡</p>
+			</div>				
+		</div>	
+
+		<!--Curtain menu: collapse this menu as default when loading the page-->
+		<nav id="curtain-nav">
+			<!--Add a close button (X) hyperlink on the top left corner-->
+			<a href="javascript:void(0)" class="nav-close-button" onclick="closeNav()">❌</a>
+			<div class="curtain-nav-content">
+				<ul>
+					<li class="active"><a href="../index.html">HOME</a></li>
+					<li><a href="../Form/form1.html">FORMS</a></li>
+					<li><a href="../XML/xmlrss.html">XML/JSON</a></li>
+					<li><a href="../JS/javascript.html">JAVASCRIPT</a></li>
+					<li><a href="research.html">RESEARCH</a></li>	
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+	  <section class="research"> <br>
+		<div class="flip-box">
+			<div class="flip-box-inner">
+			  <div class="flip-box-front">
+				<h2>Copyright, Creative Common (CC) Licenses, Fair Use</h2>
+				<img src= "MEDIA/copyright.jpg" alt="copy" class="flip" />
+			  </div>
+			  <div class="flip-box-back">
+				<h3 class="copyright">The Act gives the owner of a copyright the exclusive right to do and authorize others to do 
+						certain things in regard to a copyrighted work, including: make copies, distribute the work, display or 
+						perform the work publicly, and create derivative works. <br>
+						4 types of CC licenses: <br>
+						1. Attribution (BY) - BY” refers to attribution. This means in order to use the work, 
+						you must attribute the author of the work. All of the Creative Commons licenses require this condition <br>
+						2. Share Alike (SA) - Share Alike means that if you create an adaptation of a work that has this license, 
+						the adaptation must be licensed under the same or a compatible license. <br>
+						3. NonCommercial (NC) - NC means that the work may only be used for non-commercial purpose. In NC licenses, 
+						non-commercial is defined as “not primarily intended for or directed towards commercial advantage or monetary compensation” <br>
+						4. No Derivatives (ND) - ND means that you cannot share an adaptation of the work, though you could use and share it in its original form.
+					</h3>
+			  </div>
+			</div>
+		  </div>
+		<div class="flip-box-2">
+			<div class="flip-box-inner">
+			  <div class="flip-box-front">
+				<h2>Privacy & Web Privacy Policy</h2>
+				<img src= "MEDIA/privacy.jpg" alt="priv" class="flip" />
+			  </div>
+			  <div class="flip-box-back">
+				<h3 class="privacy"><br>A privacy policy is a document that explains how an organization handles any customer, client or 
+						employee information gathered in its operations. <br>
+					</h3>
+			  </div>
+			</div>
+		</div>  
+		<div class="flip-box-3">
+			<div class="flip-box-inner">
+			  <div class="flip-box-front">
+				<h2>Search Engine Optimization (SEO)</h2>
+				<img src= "MEDIA/seo.jpg" alt="seo" class="flip" />
+			  </div>
+			  <div class="flip-box-back">
+				<h3 class="seo"><br>5 ways to improve the visibility of your website on search engine: <br>
+						1.Target your website pages for keywords <br>
+					    2. Structure your web pages for Google search <br>
+						3. Get verified by Google <br>
+						4. Use Google Ads <br>
+						5. Add your website to online directories
+					</h3>
+			  </div>
+			</div>
+		</div>
+		<div class="flip-box-4">
+			<div class="flip-box-inner">
+			  <div class="flip-box-front">
+				<h2>Web Publishing</h2>
+				<img src= "MEDIA/web-hosting.jpg" alt="host" class="flip"/>
+			  </div>
+			  <div class="flip-box-back">
+				<h3 class="host"><br>3 factors to consider when choosing a right web hosting provider: <br>
+					    -You need to know the needs of your website <br>
+						-Choose a provider that allows you to upgrade your server down the road <br>
+						-Should be able to restore your full site (or at least a huge chunk of it) with very minimal downtime to avoid any significant losses.</h3>
+			  </div>
+			</div>
+		</div> 
+		<div class="flip-box-5">
+			<div class="flip-box-inner">
+			  <div class="flip-box-front">
+				<h2>Web Performance & Maintenance</h2>
+				<img src= "MEDIA/web-performance.jpg" alt="perf" class="flip"/>
+			  </div>
+			  <div class="flip-box-back">
+				<h3 class="performance">A general strategy is to: <br>
+						-Make your files as small as possible <br>
+						-Reduce the number of HTTP requests made as much as possible <br>
+						-Employ clever loading techniques (such as preload) to make files available sooner <br>
+						-Only load assets when they are actually needed (this is called lazy loading) <br>
+						-Continue to load in the background while the user gets on with primary tasks <br>
+						Maintenance: <br>
+						-Mark a time on the calendar to perform usability testing once a year <br>
+						-The best way to keep your domain name (and website by extension) safe is to set up auto-renew <br>
+						-Update Your Header, Footer, and Legal Policies <br>
+						-So at least once every couple of months, have someone in the company make a few test purchases to see how the process works <br>
+						-Check for Security Updates
+					 	</h3>
+			  </div>
+			</div>
+		</div>  
+		<div class="flip-box-6">
+			<div class="flip-box-inner">
+			  <div class="flip-box-front">
+				<h2>Web Security</h2>
+				<img src= "MEDIA/web-security.jpg" alt="sec" class="flip" />
+			  </div>
+			  <div class="flip-box-back">
+				<h3 class="security"><br>1. Phishing: Fake official emails link to fake websites, where users log in, and give their passwords <br>
+				    	2. DDoS: a network of computers overload a server with data, shutting down <br>
+						3. Man-in-the-Middle Attack: hackers insert themselves between yout computer and web server <br>
+						4. Cross-Site Scripting: injects malicious code into a website whick targets the visitor's browser <br>
+						5. SQL Injection Attack: corrupts data to make a server divulge data, such as credit cards numbers and usernames<br>
+						Prevention: <br>
+						-Identity and access management (IAM) <br>
+						-A comprehensive data security platform <br>
+						-Security information and event management (SIEM) <br>
+						-Offensive and defensive security services and threat intelligence
+
+				</h3>
+			  </div>
+			</div>
+		</div>    
+	</section>
+	</main>
+	
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>	
+
+	<!---------------------------------------------------->	
+	<!--Footer section-->
+	<footer>
+		<div class="social">
+		<img src="../MEDIA/fb.jpg" alt="fb" height="20px" width="20px">
+		<img src="../MEDIA/ig.png" alt="ig" height="20px" width="40px">
+		<img src="../MEDIA/tw.png" alt="tw" height="20px" width="20px">
+		<img src="../MEDIA/in.png" alt="in" height="20px" width="20px"> 
+		<p class="foot">@Created by: Grethel Fernando</p>
+		</div>
+
+	</footer>
+	
+	<script type="text/javascript" src="../JS/javascript.js">
+	</script>
+
+</body>
+
+</html>
